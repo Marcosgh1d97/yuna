@@ -6,3 +6,4 @@
 * [Reddit confirms that yuna has NGFF replacable](https://www.reddit.com/r/chromeos/comments/3asc4f/no_physical_differences_beteen_acer_chromebook/): [this](http://imgur.com/7fiKsdT) is the pictures of the bottom, dissasembled.
 * [Reddit: one user wants help](https://www.reddit.com/r/chrubuntu/comments/35n4kc/help_acer_c910_linux_install_and_ssd_upgrade/)
 * [Crouten Installation Guide](http://www.voltron00x.com/?p=1091): it seems it is a procedure for installing Linux.
+* As pointed by [ArchWiki](https://wiki.archlinux.org/index.php/Chrome_OS_devices/Chromebook), it seems Yuna has John Lewis [RW firmware support](https://johnlewis.ie/custom-chromebook-firmware/rom-download/)
