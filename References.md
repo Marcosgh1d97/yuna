@@ -4,3 +4,4 @@
 * [Reddit](https://www.reddit.com/r/chromeos/comments/39oo7a/acer_c910_i5_unable_to_boot_into_seabios_no/): it seems C910 has not legacy boot in.
 * [ChrUbuntu Guide](https://github.com/iantrich/ChrUbuntu-Guides): it has different scripts for installing ChrUbuntu on the chromebook. In particular Acer C910.
 * [Reddit confirms that yuna has NGFF replacable](https://www.reddit.com/r/chromeos/comments/3asc4f/no_physical_differences_beteen_acer_chromebook/): [this](http://imgur.com/7fiKsdT) is the pictures of the bottom, dissasembled.
+* [Reddit: one user wants help](https://www.reddit.com/r/chrubuntu/comments/35n4kc/help_acer_c910_linux_install_and_ssd_upgrade/)
