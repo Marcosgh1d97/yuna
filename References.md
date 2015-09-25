@@ -3,3 +3,4 @@
 * [Google ChromeOS developer page](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook). The name is`Yuna`. The project name is `Yuna`. The board name is `auron_yuna` and the base board `auron`.
 * [Reddit](https://www.reddit.com/r/chromeos/comments/39oo7a/acer_c910_i5_unable_to_boot_into_seabios_no/): it seems C910 has not legacy boot in.
 * [ChrUbuntu Guide](https://github.com/iantrich/ChrUbuntu-Guides): it has different scripts for installing ChrUbuntu on the chromebook. In particular Acer C910.
+* [Reddit confirms that yuna has NGFF replacable](https://www.reddit.com/r/chromeos/comments/3asc4f/no_physical_differences_beteen_acer_chromebook/): [this](http://imgur.com/7fiKsdT) is the pictures of the bottom, dissasembled.
