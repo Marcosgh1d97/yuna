@@ -1,3 +1,5 @@
+In the box:
+
   * Name: Chromebook 15 C910-C37P
   * Color: Linen Black
   * SNID: 52004000176
@@ -18,3 +20,6 @@
   * Battery: 4-ceel Li-Prismatic battery
   * Manufactured year: 2015. Made in China
   * System BD/BIOS: 00/Google_Auron_yuna.6301.59.5
+
+* In `chrome://system`:
+  * `hardware_class`: `YUNA D25-A3B-L4A-A9C`
