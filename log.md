@@ -4,4 +4,4 @@
     * I picked up my laptop. I had to pay 31,31 € for commons (see [Costs](https://github.com/somenxavier/yuna/blob/master/Costs.md))
     * I login with my gmail username.
     * I write the specs of my model down (see [Model](https://github.com/somenxavier/yuna/blob/master/Specs.md) page). 
-    * I can't install the [Chrome Recover Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/jndclpdbaamdhonoechobihbbiimdgai) because of `Network_Failed` error.
+    * I can't install the [Chrome Recover Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/jndclpdbaamdhonoechobihbbiimdgai) because of `Network_Failed` error. After [asking it](https://productforums.google.com/forum/#!msg/chromebook-central/KBUywqBgbOI/vr2KWLPgBgAJ;context-place=topicsearchin/chromebook-central/somenxavier), I knew it was the type of connection: the laptop was connected to a ad-blocking network. After connecting to my router directly, all was fine.
