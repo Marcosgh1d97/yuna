@@ -25,7 +25,7 @@
     * I put the laptop in *developer mode*:
       * Press `ESC` + `F3` + `Power button`
       * `CTRL+D`
-      * After [confirming](figs/04-chromeos-seabios-changes/2-confirmation.JPG) that, the system [rebooted](figs/04-chromeos-seabios-changes/3-rebooted.JPG) and [turned into](figs/04-chromeos-seabios-changes/4-transition.JPG) the Developer Mode. It takes about 8 minuts (see [5-awhile* series](figs/04-chromeos-seabios-changes/)). It rebooted [again](figs/04-chromeos-seabios-changes/6-reboot.JPG) and asking for the [config](figs/04-chromeos-seabios-changes/8-config.JPG). I recommend you to configurate the net, because you need for the next step.
+      * After [confirming](figs/04-chromeos-seabios-changes/2-confirmation.jpg) that, the system [rebooted](figs/04-chromeos-seabios-changes/3-rebooted.jpg) and [turned into](figs/04-chromeos-seabios-changes/4-transition.jpg) the Developer Mode. It takes about 8 minuts (see [5-awhile* series](figs/04-chromeos-seabios-changes/)). It rebooted [again](figs/04-chromeos-seabios-changes/6-reboot.jpg) and asking for the [config](figs/04-chromeos-seabios-changes/8-config.jpg). I recommend you to configurate the net, because you need for the next step.
    * Accessing the shell:
      * `CTRL+ALT+F2`: it opens a console window
      * I intered as a `chronos` user (no password)
