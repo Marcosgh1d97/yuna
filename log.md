@@ -13,7 +13,7 @@
   * 2015-10-10: I used the Google Recovery Utility to make a backup. The important in this step is that the `ID` of the laptop is the same of the `chrome:system`, that is, `YUNA D25-A3B-L4A-A9C` (see [this](https://github.com/somenxavier/yuna/blob/master/figs/01-recovery/1-identifying.jpg)).
   * 2015-10-12: I [disassembled](https://github.com/somenxavier/yuna/tree/master/figs/02-disassemble) the chromebook:
     * removing the [18 screws](https://github.com/somenxavier/yuna/blob/master/figs/02-disassemble/1-screws.jpg) at the bottom
-    * separate the [two parts](https://github.com/somenxavier/yuna/blob/master/figs/02-disassemble/2-separate-parts.jpg)
+    * separate the [two parts](https://github.com/somenxavier/yuna/blob/master/figs/02-disassemble/2-separate-parts.jpg). In my case, if I open the lid, then in the right corner, the two parts have a gap between them.
     * I deplug the battery cable and I substitute the 32 GB harddisk for my 128 GB (see the [motherboard connection details](https://github.com/somenxavier/yuna/blob/master/figs/02-disassemble/3-motherboard-details.JPG)).
     * Then I powered on the laptop and I recovered chromeos with the backup I made before (see this [folder](https://github.com/somenxavier/yuna/tree/master/figs/03-recovery)).
   * 2015-10-12: After so much effort, I discovered [this laptop](https://slimbook.es/). Slimbook has similar features but less price and has upgradable RAM and harddisk. 
