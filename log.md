@@ -43,4 +43,5 @@
      * `# /usr/share/vboot/bin/set_gbb_flags.sh`
      * `# /usr/share/vboot/bin/set_gbb_flags.sh 0x489`
      * `# reboot`
-   * Then you boot with SeaBIOS. The ChromeOS does not work in my case. You can boot with USB CD-ROM. In my case I use Arch boot CD iso and you could procede as normal intallation. Important: put `vga=832` if you want to see something on the screen.
+   * Then you boot with SeaBIOS. The ChromeOS does not work in my case. You can boot with USB CD-ROM. In my case I use Arch boot CD iso and you 
+could procede as normal intallation. Important: put `vga=832` if you want to see something on the screen. There are some [issues](https://wiki.archlinux.org/index.php/Chrome_OS_devices#Syslinux) you have to consider. Please read the [ArchWiki page](https://wiki.archlinux.org/index.php/Chrome_OS_devices#Installing_Arch_Linux)
