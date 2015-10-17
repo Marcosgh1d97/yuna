@@ -45,3 +45,12 @@
      * `# reboot`
    * Then you boot with SeaBIOS. The ChromeOS does not work in my case. You can boot with USB CD-ROM. In my case I use Arch boot CD iso and you 
 could procede as normal intallation. Important: put `vga=832` if you want to see something on the screen. There are some [issues](https://wiki.archlinux.org/index.php/Chrome_OS_devices#Syslinux) you have to consider. Please read the [ArchWiki page](https://wiki.archlinux.org/index.php/Chrome_OS_devices#Installing_Arch_Linux)
+
+# Installing linux: OS part #
+
+  * 2015-10-16: I [intalled](https://wiki.archlinux.org/index.php/Beginners'_guide) the Arch Linux. The only tricks are:
+    * The laptop has not UEFI vars.
+    * I partitioned my disk with GPT schema
+    * You need to put 1MiB of [BIOS partition](https://wiki.archlinux.org/index.php/GRUB#GUID_Partition_Table_.28GPT.29_specific_instructions). For this, I used `gdisk` and I added `ef02` partition type of size `+1M` (with parted, the `bios_grub` type is not recognized). Then I went to `parted` and I put more partitions as usual (in my case, `/` and `/home`). For assuring all is OK I set that the second partition starts on the 5MiB of the disk.
+    * I install grub (`# pacman -S grub os-prober`, `# grub-install --recheck /dev/sda`, `# grub-mkconfig -o /boot/grub/grub.cfg`)
+    * All is fine except that the grub menu [is not displayed](https://bbs.archlinux.org/viewtopic.php?id=203921).
