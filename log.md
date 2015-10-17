@@ -53,4 +53,4 @@ could procede as normal intallation. Important: put `vga=832` if you want to see
     * I partitioned my disk with GPT schema
     * You need to put 1MiB of [BIOS partition](https://wiki.archlinux.org/index.php/GRUB#GUID_Partition_Table_.28GPT.29_specific_instructions). For this, I used `gdisk` and I added `ef02` partition type of size `+1M` (with parted, the `bios_grub` type is not recognized). Then I went to `parted` and I put more partitions as usual (in my case, `/` and `/home`). For assuring all is OK I set that the second partition starts on the 5MiB of the disk.
     * I install grub (`# pacman -S grub os-prober`, `# grub-install --recheck /dev/sda`, `# grub-mkconfig -o /boot/grub/grub.cfg`)
-    * All is fine except that the grub menu [is not displayed](https://bbs.archlinux.org/viewtopic.php?id=203921).
+    * All is fine except that the grub menu [is not displayed](https://bbs.archlinux.org/viewtopic.php?id=203921). Solved temporary with `GRUB_TERMINAL_OUTPUT=console` uncommented in the `/etc/default/grub` file.
