@@ -55,3 +55,5 @@ could procede as normal intallation. Important: put `vga=832` if you want to see
     * I install grub (`# pacman -S grub os-prober`, `# grub-install --recheck /dev/sda`, `# grub-mkconfig -o /boot/grub/grub.cfg`)
     * All is fine except that the grub menu [is not displayed](https://bbs.archlinux.org/viewtopic.php?id=203921). Solved temporary with `GRUB_TERMINAL_OUTPUT=console` uncommented in the `/etc/default/grub` file.
     * Change the default sound card to non-hdmi card:  put `snd-hda-intel index=1,0` in (created) file `/etc/modprobe.d/50-alsa.conf` and reboot.
+    * Put `tpm_tis.interrupts=0` for preventing TPM error in dmesg. Via [debian wiki](https://wiki.debian.org/InstallingDebianOn/Acer/C740/unstable)
+    * Optinal: disable power button and lid suspend with `HandlePowerKey=ignore` and `HandleLidSwitch=ignore` in `/etc/systemd/logind.conf`.
