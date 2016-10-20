@@ -57,3 +57,7 @@ could procede as normal intallation. Important: put `vga=832` if you want to see
     * Change the default sound card to non-hdmi card:  put `snd-hda-intel index=1,0` in (created) file `/etc/modprobe.d/50-alsa.conf` and reboot.
     * Put `tpm_tis.interrupts=0` for preventing TPM error in dmesg. Via [debian wiki](https://wiki.debian.org/InstallingDebianOn/Acer/C740/unstable)
     * Optinal: disable power button and lid suspend with `HandlePowerKey=ignore` and `HandleLidSwitch=ignore` in `/etc/systemd/logind.conf`.
+    
+# Black screen #
+
+As 2016-10-19, the screen turns black. Just black. It seems it is broken. I will not replace the screen [as previously I did with other Chromebook]. In conclusion: the screens of chromebooks are bad, very bad. And so, if you can, avoid chromebooks. They are made of bad hardware.
